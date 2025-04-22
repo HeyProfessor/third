@@ -1,0 +1,32 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #f9f9f9;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    margin-top: 50px;
+}
+
+h1 {
+    color: #333;
+}
+
+#dog-image {
+    width: 300px;
+    height: auto;
+    border-radius: 15px;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+}
+
+#dog-image:hover {
+    transform: scale(1.1);
+}
+
+#dog-description {
+    font-size: 18px;
+    color: #555;
+}
