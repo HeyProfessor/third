@@ -3,6 +3,6 @@ document.getElementById('dog-image').addEventListener('click', () => {
     const image = document.getElementById('dog-image');
 
     description.textContent = "Buddy loves you! 🐾";
-    image.style.transform = "rotate(360deg)";
+    image.style.transform = "rotate(-10deg)";
     image.style.transition = "transform 1s ease";
 });
